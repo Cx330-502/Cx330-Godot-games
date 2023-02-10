@@ -1,0 +1,141 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://dodge_assets/fonts/方正黑体20.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Settings2.gd" type="Script" id=2]
+[ext_resource path="res://buttonstyle1.tres" type="StyleBox" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.673962, 0.774708, 0.90332, 0.501961 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.596078, 0.847059, 0.945098, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.470588, 0.831373, 0.929412, 1 )
+
+[node name="Settings2" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="Settings2" type="Node2D" parent="."]
+position = Vector2( 0, 22 )
+
+[node name="ColorRect" type="ColorRect" parent="Settings2"]
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 83.0
+margin_top = 22.0
+margin_right = 416.0
+margin_bottom = 142.0
+color = Color( 0.286275, 0.894118, 0.709804, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="uncracked" type="Node2D" parent="Settings2"]
+
+[node name="code" type="LineEdit" parent="Settings2/uncracked"]
+margin_left = 100.0
+margin_top = 77.0
+margin_right = 302.0
+margin_bottom = 128.0
+custom_styles/normal = SubResource( 1 )
+
+[node name="sureButton" type="Button" parent="Settings2/uncracked"]
+margin_left = 321.0
+margin_top = 78.0
+margin_right = 391.0
+margin_bottom = 125.0
+custom_styles/normal = SubResource( 2 )
+text = "OK!"
+
+[node name="cracked" type="Node2D" parent="Settings2"]
+
+[node name="OptionButton" type="OptionButton" parent="Settings2/cracked"]
+margin_left = 106.0
+margin_top = 78.0
+margin_right = 298.0
+margin_bottom = 125.0
+custom_styles/pressed = ExtResource( 3 )
+custom_styles/focus = ExtResource( 3 )
+custom_styles/normal = SubResource( 3 )
+
+[node name="Label" type="Label" parent="Settings2"]
+margin_left = 101.0
+margin_top = 41.0
+margin_right = 341.0
+margin_bottom = 68.0
+custom_fonts/font = ExtResource( 1 )
+text = "输入激活码，开启新世界！"
+
+[node name="Node2D" type="Node2D" parent="Settings2"]
+visible = false
+position = Vector2( 0, -22 )
+
+[node name="Label0" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "小彩蛋"
+
+[node name="Label1" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "白哥哥"
+
+[node name="Label2" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "樊哥哥"
+
+[node name="Label3" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "翰宝"
+
+[node name="Label4" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "康少"
+
+[node name="Label5" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "老社长"
+
+[node name="Label6" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "宋学长"
+
+[node name="Label7" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "王雅晨"
+
+[node name="Label8" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "小涛涛"
+
+[node name="Label9" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "小霄霄"
+
+[node name="Label10" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "院士"
+
+[node name="Label11" type="Label" parent="Settings2/Node2D"]
+margin_right = 40.0
+margin_bottom = 41.0
+text = "真姐姐"
+
+[node name="TextureRect" type="TextureRect" parent="Settings2"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+
+[connection signal="pressed" from="Settings2/uncracked/sureButton" to="." method="_on_sureButton_pressed"]
+[connection signal="item_selected" from="Settings2/cracked/OptionButton" to="." method="_on_OptionButton_item_selected"]

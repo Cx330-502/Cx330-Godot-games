@@ -1,0 +1,144 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://player.gd" type="Script" id=1]
+[ext_resource path="res://dodge_assets/art/playerGrey_walk2.png" type="Texture" id=2]
+[ext_resource path="res://dodge_assets/art/playerGrey_up2.png" type="Texture" id=3]
+[ext_resource path="res://dodge_assets/art/playerGrey_walk1.png" type="Texture" id=4]
+[ext_resource path="res://dodge_assets/art/playerGrey_up1.png" type="Texture" id=5]
+[ext_resource path="res://name_1.png" type="Texture" id=6]
+[ext_resource path="res://name_8.png" type="Texture" id=7]
+[ext_resource path="res://name_0.png" type="Texture" id=8]
+[ext_resource path="res://name_11.png" type="Texture" id=9]
+[ext_resource path="res://name_2.png" type="Texture" id=10]
+[ext_resource path="res://name_7.png" type="Texture" id=11]
+[ext_resource path="res://name_10.png" type="Texture" id=12]
+[ext_resource path="res://name_3.png" type="Texture" id=13]
+[ext_resource path="res://name_6.png" type="Texture" id=14]
+[ext_resource path="res://name_9.png" type="Texture" id=15]
+[ext_resource path="res://name_5.png" type="Texture" id=16]
+[ext_resource path="res://name_4.png" type="Texture" id=17]
+
+[sub_resource type="Gradient" id=3]
+colors = PoolColorArray( 1, 1, 1, 0.490196, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=4]
+gradient = SubResource( 3 )
+
+[sub_resource type="Curve" id=8]
+max_value = 0.5
+_data = [ Vector2( 0, 0.182386 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.0472727 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=6]
+curve = SubResource( 8 )
+
+[sub_resource type="ParticlesMaterial" id=7]
+flag_disable_z = true
+gravity = Vector3( 0, 0, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 2.0
+scale_curve = SubResource( 6 )
+color_ramp = SubResource( 4 )
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "0",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "11",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ) ],
+"loop": true,
+"name": "4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ) ],
+"loop": true,
+"name": "6",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "7",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "8",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ) ],
+"loop": true,
+"name": "9",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "up",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 25.0
+height = 0.0
+
+[node name="player" type="Area2D"]
+script = ExtResource( 1 )
+speed = 150
+
+[node name="Particles2D" type="Particles2D" parent="."]
+amount = 10
+local_coords = false
+process_material = SubResource( 7 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.45, 0.45 )
+frames = SubResource( 9 )
+animation = "11"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[connection signal="body_entered" from="." to="." method="_on_player_body_entered"]

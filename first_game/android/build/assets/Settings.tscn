@@ -1,0 +1,226 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://dodge_assets/fonts/方正黑体16.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Settings.gd" type="Script" id=2]
+[ext_resource path="res://dodge_assets/fonts/方正黑体20.tres" type="DynamicFont" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[node name="Settings" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="Settings" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 120.0
+margin_top = 65.0
+margin_right = 360.0
+margin_bottom = 400.0
+color = Color( 0.462745, 0.486275, 0.458824, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label" type="Label" parent="Settings"]
+margin_left = 131.0
+margin_top = 84.0
+margin_right = 355.0
+margin_bottom = 225.0
+custom_fonts/font = ExtResource( 1 )
+text = "                  一些说明
+通过WASD或↑↓←→来控制
+角色的移动，并躲避怪物。
+每次生存时间超过20秒，你将
+获得1点能力值;超过40秒将再
+获得2点能力值。能力值可以
+用来改变你和怪物的移动速度。"
+
+[node name="player" type="Node2D" parent="Settings"]
+position = Vector2( 0, 19 )
+
+[node name="name" type="Label" parent="Settings/player"]
+margin_left = 136.0
+margin_top = 228.0
+margin_right = 212.0
+margin_bottom = 269.0
+custom_fonts/font = ExtResource( 1 )
+text = "角色速度"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="speed_level" type="Label" parent="Settings/player"]
+margin_left = 254.0
+margin_top = 231.0
+margin_right = 294.0
+margin_bottom = 264.0
+custom_fonts/font = ExtResource( 1 )
+text = "3"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="up" type="Button" parent="Settings/player"]
+margin_left = 221.0
+margin_top = 228.0
+margin_right = 265.0
+margin_bottom = 269.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_clip_content = true
+custom_styles/normal = SubResource( 1 )
+text = "+"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="down" type="Button" parent="Settings/player"]
+margin_left = 275.0
+margin_top = 228.0
+margin_right = 319.0
+margin_bottom = 269.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_clip_content = true
+custom_styles/normal = SubResource( 1 )
+text = "-"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="mob" type="Node2D" parent="Settings"]
+position = Vector2( 0, 35 )
+
+[node name="name" type="Label" parent="Settings/mob"]
+margin_left = 136.0
+margin_top = 228.0
+margin_right = 212.0
+margin_bottom = 269.0
+custom_fonts/font = ExtResource( 1 )
+text = "怪物速度"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="speed_level" type="Label" parent="Settings/mob"]
+margin_left = 254.0
+margin_top = 231.0
+margin_right = 294.0
+margin_bottom = 264.0
+custom_fonts/font = ExtResource( 1 )
+text = "3"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="up" type="Button" parent="Settings/mob"]
+margin_left = 221.0
+margin_top = 228.0
+margin_right = 265.0
+margin_bottom = 269.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_clip_content = true
+custom_styles/normal = SubResource( 1 )
+text = "+"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="down" type="Button" parent="Settings/mob"]
+margin_left = 275.0
+margin_top = 228.0
+margin_right = 319.0
+margin_bottom = 269.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_clip_content = true
+custom_styles/normal = SubResource( 1 )
+text = "-"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ability" type="Node2D" parent="Settings"]
+position = Vector2( 1, 52 )
+
+[node name="name" type="Label" parent="Settings/ability"]
+margin_left = 136.0
+margin_top = 228.0
+margin_right = 212.0
+margin_bottom = 269.0
+custom_fonts/font = ExtResource( 1 )
+text = "能力值"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="abilities" type="Label" parent="Settings/ability"]
+margin_left = 254.0
+margin_top = 231.0
+margin_right = 294.0
+margin_bottom = 264.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="OptionButton" type="OptionButton" parent="Settings"]
+margin_left = 244.0
+margin_top = 317.0
+margin_right = 298.0
+margin_bottom = 364.0
+custom_fonts/font = ExtResource( 3 )
+custom_styles/normal = SubResource( 2 )
+text = "简单"
+
+[node name="Node2D" type="Node2D" parent="Settings"]
+visible = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="label1" type="Label" parent="Settings/Node2D"]
+visible = false
+margin_right = 40.0
+margin_bottom = 41.0
+text = "简单"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="label2" type="Label" parent="Settings/Node2D"]
+visible = false
+margin_right = 40.0
+margin_bottom = 41.0
+text = "困难"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="label3" type="Label" parent="Settings/Node2D"]
+visible = false
+margin_right = 40.0
+margin_bottom = 41.0
+text = "噩梦"
+
+[node name="difficulty" type="Label" parent="Settings"]
+margin_left = 185.0
+margin_top = 319.0
+margin_right = 225.0
+margin_bottom = 360.0
+custom_fonts/font = ExtResource( 3 )
+text = "难度"
+align = 1
+valign = 1
+
+[connection signal="pressed" from="Settings/player/up" to="." method="_on_up_pressed"]
+[connection signal="pressed" from="Settings/player/down" to="." method="_on_down_pressed"]
+[connection signal="pressed" from="Settings/mob/up" to="." method="_on_mobup_pressed"]
+[connection signal="pressed" from="Settings/mob/down" to="." method="_on_mobdown_pressed"]
+[connection signal="item_selected" from="Settings/OptionButton" to="." method="_on_OptionButton_item_selected"]

@@ -1,0 +1,156 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://dodge_assets/fonts/方正黑体3.tres" type="DynamicFont" id=1]
+[ext_resource path="res://HUD.gd" type="Script" id=2]
+[ext_resource path="res://20.png" type="Texture" id=3]
+[ext_resource path="res://0.png" type="Texture" id=4]
+[ext_resource path="res://40.png" type="Texture" id=5]
+
+[sub_resource type="StyleBoxFlat" id=1]
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 77, 0, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 154, 0, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 231, 0, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 308, 0, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 89, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 77, 89, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 154, 89, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 231, 89, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 308, 89, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 178, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 77, 178, 77, 89 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 154, 178, 77, 89 )
+
+[sub_resource type="SpriteFrames" id=15]
+animations = [ {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "0",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ) ],
+"loop": true,
+"name": "40",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "20",
+"speed": 5.0
+} ]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="score_label" type="Label" parent="."]
+light_mask = 2
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -34.0
+margin_top = 55.0
+margin_right = 34.0
+margin_bottom = 41.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="message_label" type="Label" parent="."]
+light_mask = 2
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -85.0
+margin_top = 50.0
+margin_right = 85.0
+margin_bottom = 20.5
+text = "准备好躲藏"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="statrbutton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -49.0
+margin_top = 200.0
+margin_right = 49.0
+margin_bottom = 23.5
+custom_styles/normal = SubResource( 1 )
+text = "!开始!"
+expand_icon = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="pictures" type="Node2D" parent="."]
+
+[node name="pictures" type="AnimatedSprite" parent="pictures"]
+position = Vector2( 240, 322 )
+scale = Vector2( 1.95814, 1.8091 )
+frames = SubResource( 15 )
+animation = "40"
+frame = 3
+playing = true
+
+[connection signal="pressed" from="statrbutton" to="." method="_on_statrbutton_pressed"]
