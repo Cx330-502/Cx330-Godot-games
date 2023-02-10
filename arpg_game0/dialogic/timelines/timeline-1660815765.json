@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "这里……是哪里？"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "孩子，这里是海云村。"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "我，我为什么会在这里？你是谁？"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "我是海云村的村长。我们在海云岛上发现了你，发现你的时候，你已经晕过去了。"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "！！！\n我一定是在和鸡王战斗时打晕了，然后掉入了时空隧道！\n村长前辈，请问海云村里有时空隧道吗？我要赶紧回去打败鸡王！"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云村上并没有空间隧道……\n海云岛上倒是有，不过……"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "不过什么！"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云岛上的空间隧道被一个魔王霸占了许多年了。我们海魂村上的人也与世隔绝了很久了……"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "区区小怪……\n嗯？我的力量呢？为什么我变得如此脆弱！"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "或许，是伤势未愈吧……\n少年，恕我直言：你现在的状况对上那魔王，恐怕……"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "不！我一定要找到空间隧道，回去打败鸡王！"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "唉（长叹一口气）……\n你执意如此的话，海云岛上或许有些宝物能让你提升自己\n岛上处处都有怪物，击杀他们能获得些钱币\n对了，村子里的医生、占卜师和商人那应该有些让你感兴趣的东西"
+		},
+		{
+			"emit_signal": "村长_first_born",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660815765.json",
+		"name": "村长_first_born"
+	}
+}

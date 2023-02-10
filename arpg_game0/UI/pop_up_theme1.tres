@@ -1,0 +1,50 @@
+[gd_resource type="Theme" load_steps=13 format=2]
+
+[ext_resource path="res://fonts/font1 - 副本 (3).tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 0.152941, 0.152941, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.917647, 0.996078, 0.227451, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.580392, 0.901961, 0.262745, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.176471, 0.847059, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.54902, 0.388235, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.45098, 0.345098, 0.345098, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.968627, 0.403922, 0.403922, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.984314, 0.337255, 0.337255, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.937255, 0.211765, 0.211765, 1 )
+
+[resource]
+Button/fonts/font = ExtResource( 1 )
+Button/styles/disabled = SubResource( 1 )
+Button/styles/focus = SubResource( 2 )
+Button/styles/hover = SubResource( 4 )
+Button/styles/normal = SubResource( 3 )
+Button/styles/pressed = SubResource( 5 )
+Label/fonts/font = ExtResource( 1 )
+TabContainer/styles/panel = SubResource( 6 )
+TabContainer/styles/tab_bg = SubResource( 11 )
+TextEdit/styles/completion = SubResource( 7 )
+TextEdit/styles/focus = SubResource( 8 )
+TextEdit/styles/normal = SubResource( 9 )
+TextEdit/styles/read_only = SubResource( 10 )
+VBoxContainer/constants/separation = 4

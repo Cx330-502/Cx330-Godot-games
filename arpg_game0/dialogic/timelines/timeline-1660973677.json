@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "泉水甘甜而清冽。其中的魔力似乎治好了你的伤势~"
+		},
+		{
+			"emit_signal": "泉水",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660973677.json",
+		"name": "泉水"
+	}
+}

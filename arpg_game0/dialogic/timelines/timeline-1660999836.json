@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815894.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "天机不可泄漏，我不能占卜太多了"
+		},
+		{
+			"emit_signal": "占卜师_end0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660999836.json",
+		"name": "占卜师_6"
+	}
+}

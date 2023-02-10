@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"character": "character-1660835972.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "上邪，我欲与君相知，长命无绝衰。"
+		},
+		{
+			"character": "character-1660835991.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "山无陵，江水为竭。"
+		},
+		{
+			"character": "character-1660835972.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "冬雷震震，夏雨雪。"
+		},
+		{
+			"character": "character-1660835991.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "天地合，乃敢与君绝。"
+		},
+		{
+			"emit_signal": "情侣",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660836003.json",
+		"name": "情侣"
+	}
+}

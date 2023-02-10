@@ -1,0 +1,1829 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://World/Trees.tscn" type="PackedScene" id=1]
+
+[node name="TREEes" type="YSort"]
+
+[node name="Trees" type="YSort" parent="."]
+
+[node name="Trees7" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -816, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees8" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -784, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees6" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -848, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees5" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -880, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees2" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 976, 752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees3" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 1008, 752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees16" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -1824, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees17" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -1808, 128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees18" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -1680, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees19" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -1808, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees4" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees9" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees10" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees11" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees12" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees13" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees14" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees15" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -384, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees20" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees21" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees22" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -176, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees23" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -144, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees24" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -112, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees25" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 50, -292 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees26" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 79, -293 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees27" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 105, -295 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees28" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 133, -297 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees29" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 158, -296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees30" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -271, -230 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees31" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -208 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees32" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees33" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees34" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees35" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees36" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees37" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -240 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees38" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees39" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -208 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees40" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees41" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees42" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees43" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -272, -112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees44" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -208, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees45" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -208, -176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees46" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -336, -96 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees47" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -336, -80 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees48" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -336, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees49" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -336, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees50" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -368, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees51" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -368, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees52" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -400, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees53" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -400, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees54" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -432, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees55" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -432, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees56" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -496, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees57" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -496, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees58" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -528, -48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees59" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -528, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees60" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -240, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees61" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 624, 176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees62" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 144, 256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees65" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 176, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees70" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 320, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees72" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 432, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees74" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 416, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees73" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 320, 320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees75" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 480, 144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees116" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 272, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees76" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 480, 192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees79" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 592, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees80" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 592, -304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees81" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 624, -304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees88" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 624, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees89" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 592, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees90" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees91" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 608, -512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees92" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 720, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees93" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 768, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees94" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 800, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees83" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 480, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees86" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 448, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees87" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 512, -416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees84" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 512, -368 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees82" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 592, -336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees77" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees96" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees78" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees95" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees97" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees98" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees99" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 688, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees100" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 576, -208 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees71" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 176, 368 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees63" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -192, 512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees64" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -192, 448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees66" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 16, 256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees117" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -96, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees118" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( -64, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees67" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 32, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees68" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 400, 64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees69" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 368, -32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees85" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 656, 112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees112" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 752, 96 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees113" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 784, 96 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees114" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 720, 0 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees115" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 752, 0 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees101" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees103" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees104" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees105" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees106" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 944, 256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees107" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees110" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 672, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees111" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 704, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees108" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 528, 320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees109" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 528, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees102" type="StaticBody2D" parent="Trees" instance=ExtResource( 1 )]
+position = Vector2( 912, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees2" type="YSort" parent="."]
+
+[node name="Trees7" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -816, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees8" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -784, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees6" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -848, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees5" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -880, 704 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees2" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 976, 752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees3" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 1008, 752 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees16" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -1824, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees17" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -1808, 128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees18" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -1680, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees19" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -1808, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees4" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees9" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees10" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees11" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees12" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees13" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees14" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees15" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees20" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -272, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees21" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -240, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees22" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -176, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees23" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees24" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -80, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees25" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -48, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees26" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -16, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees27" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 16, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees28" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 16, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees29" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -16, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees30" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -48, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees31" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -80, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees32" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -112, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees33" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees34" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -176, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees35" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -176, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees36" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -176, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees37" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees38" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees39" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees40" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -368 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees41" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees42" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -400 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees43" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees44" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees45" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -420 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees46" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees47" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -464 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees48" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees49" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees50" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees51" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -528 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees52" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -528 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees53" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees54" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees55" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees56" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 160, -592 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees57" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -256, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees58" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees59" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees60" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees61" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees62" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees63" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees64" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees65" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -533 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees66" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -512 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees67" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees68" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees69" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees70" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees71" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees72" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -368 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees73" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees74" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -432, -336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees75" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees76" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees77" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees78" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -464, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees79" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees80" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -528, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees81" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -528, -272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees82" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -248 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees83" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees84" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees85" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -265 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees86" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, -208 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees87" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -480, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees88" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees89" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -416, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees90" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -368, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees91" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees92" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -336, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees93" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -336, -173 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees94" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -400, -176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees95" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -368, -176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees96" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -288, 464 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees97" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -384, 448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees98" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees99" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -512, 448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees124" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -864, 432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees125" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -928, 432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees100" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees101" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees102" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees103" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -528, 240 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees104" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees134" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -496, 112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees133" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -448, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees121" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -656, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees122" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -688, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees123" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -720, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees105" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -304, 256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees106" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 80, 192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees107" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees108" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -192, -128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees109" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -160, -128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees110" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -112, -16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees111" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, 96 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees112" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, 128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees113" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -368, 112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees114" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -368, 144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees131" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees132" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -144, 384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees127" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -864, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees128" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -864, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees129" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -864, 272 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees130" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -864, 304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees115" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -672, -64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees116" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -672, -32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees135" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -528, -224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees136" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -528, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees119" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -784, -112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees120" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -784, -80 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees117" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( 16, 128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees118" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -48, 176 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees126" type="StaticBody2D" parent="Trees2" instance=ExtResource( 1 )]
+position = Vector2( -624, 496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees3" type="YSort" parent="."]
+
+[node name="Trees36" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -240, 128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees33" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -160, -16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees16" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -160, -192 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees17" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -128, -224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees18" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -16, -224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees19" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 48, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees20" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 80, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees21" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 112, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees22" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 144, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees23" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 176, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees24" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees25" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees26" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees27" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees28" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -400 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees29" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees30" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 320, -432 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees31" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 288, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees32" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 224, -112 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees34" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 288, -352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees38" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 288, -384 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees35" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 208, -144 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees39" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 160, -128 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees41" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 80, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees40" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 80, -16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees37" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 256, -80 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees2" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -336, 496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees43" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -608, -336 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees44" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -608, -304 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees45" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -544, -448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees46" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -544, -416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees47" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -720, -528 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees48" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -688, -528 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees59" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -688, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees60" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -656, -320 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees53" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -784, -544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees54" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -640, -544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees55" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -848, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees56" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -816, -480 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees57" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -720, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees58" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -752, -560 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees49" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -912, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees50" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -880, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees51" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -976, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees52" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -944, -576 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees3" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -576, 544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( -160, 448 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees4" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 432, -1.52588e-05 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees5" type="StaticBody2D" parent="Trees3" instance=ExtResource( 1 )]
+position = Vector2( 400, -96 )
+__meta__ = {
+"_edit_group_": true
+}

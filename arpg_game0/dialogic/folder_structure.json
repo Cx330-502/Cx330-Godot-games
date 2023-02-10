@@ -1,0 +1,108 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1660815785.json",
+				"character-1660815820.json",
+				"character-1660815894.json",
+				"character-1660815920.json",
+				"character-1660815936.json",
+				"character-1660815941.json",
+				"character-1660815952.json",
+				"character-1660815968.json",
+				"character-1660831980.json",
+				"character-1660835972.json",
+				"character-1660835991.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+				"timeline-1660815765.json",
+				"timeline-1660913136.json",
+				"timeline-1661018592.json"
+			],
+			"folders": {
+				"占卜师": {
+					"files": [
+						"timeline-1660999830.json",
+						"timeline-1660999832.json",
+						"timeline-1660999833.json",
+						"timeline-1660999834.json",
+						"timeline-1660999835.json",
+						"timeline-1660999836.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"遇到": {
+					"files": [
+						"timeline-1660818761.json",
+						"timeline-1660819204.json",
+						"timeline-1660831038.json",
+						"timeline-1660831480.json",
+						"timeline-1660831513.json",
+						"timeline-1660831594.json",
+						"timeline-1660831676.json",
+						"timeline-1660831724.json",
+						"timeline-1660831761.json",
+						"timeline-1660831990.json",
+						"timeline-1660836003.json",
+						"timeline-1660973677.json",
+						"timeline-1661011467.json",
+						"timeline-1661011539.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

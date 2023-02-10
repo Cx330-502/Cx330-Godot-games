@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815920.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "你好像受伤了，我帮你治疗一下吧"
+		},
+		{
+			"emit_signal": "医生",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831594.json",
+		"name": "医生"
+	}
+}

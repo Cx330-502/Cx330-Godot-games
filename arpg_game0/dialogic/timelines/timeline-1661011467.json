@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "当然了！你说说怎么比"
+		},
+		{
+			"character": "character-1660815952.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "我守左边的门，你守右边的门。谁先进满3球，谁就获胜，怎么样？"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "一言为定！"
+		},
+		{
+			"emit_signal": "小孩_初遇_play",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1661011467.json",
+		"name": "小孩_初遇_play"
+	}
+}

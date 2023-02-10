@@ -1,0 +1,5636 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://World/grass.tscn" type="PackedScene" id=1]
+[ext_resource path="res://World/grass.gd" type="Script" id=2]
+
+[node name="GRASSes" type="YSort"]
+
+[node name="Grasses" type="YSort" parent="."]
+
+[node name="grass" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass2" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass3" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass4" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass5" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass6" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass7" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 160, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass8" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass9" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass10" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass11" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1584, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass12" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1600, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass13" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1616, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass14" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1616, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass15" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1632, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass16" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1904, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass17" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1904, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass18" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1856, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass19" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1840, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass20" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1776, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass21" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1776, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass22" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1760, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass23" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass28" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -128, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass24" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass25" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass26" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -176, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass35" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass36" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -256, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass37" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -320, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass38" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass39" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass40" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -16, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass41" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -48, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass42" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass43" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -64, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass44" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 16, 432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass45" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass46" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass47" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass48" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass49" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass50" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -64, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass51" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 32, 432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass52" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -48, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass53" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass56" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass57" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -176, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass58" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -208, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass59" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -320, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass60" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -240, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass61" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -192, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass62" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -208, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass63" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -368, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass64" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -352, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass65" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -400, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass66" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -368, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass67" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass68" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass69" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -352, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass84" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass85" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass86" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass87" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass88" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass89" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass90" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass91" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -400, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass92" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -368, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass93" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass94" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -400, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass95" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass96" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -448, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass97" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -368, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass420" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass421" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -320, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass422" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -448, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass423" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass424" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass425" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass426" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass427" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass428" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass429" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass430" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -384, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass431" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -336, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass98" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -160, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass99" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass100" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass101" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -128, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass102" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass103" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass104" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -64, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass566" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -288, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass567" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -192, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass568" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -256, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass569" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass570" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass571" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -224, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass572" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -256, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass392" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 0, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass393" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -16, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass394" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 16, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass395" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 0, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass396" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -16, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass397" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass587" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -160, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass588" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -208, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass589" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -176, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass590" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -240, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass398" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 32, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass573" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -16, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass574" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 16, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass575" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 0, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass576" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass577" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 0, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass578" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass579" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 32, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass580" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass581" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 32, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass582" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass583" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -16, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass584" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass585" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass586" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass399" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 96, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass400" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 128, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass401" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass402" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 48, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass403" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 128, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass404" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass405" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass605" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass606" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass607" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass608" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass609" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass610" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass611" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass591" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass592" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass593" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass594" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass595" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 160, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass596" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 176, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass597" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass598" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass599" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass600" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass601" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass602" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass603" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass604" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 160, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass612" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 160, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass613" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass614" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass615" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -48, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass616" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass617" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 96, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass618" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass619" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass620" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 128, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass621" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass622" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass623" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass552" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass553" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -128, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass554" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -48, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass555" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass556" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass557" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass558" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass559" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass560" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass561" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -32, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass562" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass563" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass564" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass565" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -48, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass105" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -464, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass106" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass107" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -448, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass108" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -464, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass109" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -448, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass110" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -320, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass111" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass432" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass452" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass450" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass451" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass433" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass434" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass435" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass436" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass437" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass112" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass113" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass114" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass115" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass116" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass444" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass445" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass446" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass447" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass448" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass449" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass117" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass118" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass119" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass120" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -736, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass121" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -784, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass122" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass123" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass124" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -768, -416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass125" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -768, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass126" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -832, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass127" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -944, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass128" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -880, -544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass129" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -864, -544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass130" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -1024, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass131" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -848, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass132" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -960, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass133" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass134" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass135" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -512, -416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass442" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass443" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass136" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass137" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass438" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, -336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass439" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -528, -336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass440" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass441" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, -368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass138" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass139" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass140" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass141" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -848, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass142" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass143" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass144" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass145" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass146" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -800, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass147" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -752, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass148" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass149" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass150" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -752, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass151" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass152" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass153" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass154" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -736, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass155" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass156" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass157" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass158" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -768, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass159" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass160" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -832, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass161" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -976, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass162" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass163" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -896, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass164" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -928, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass165" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -848, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass166" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -832, 464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass167" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -976, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass413" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -912, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass414" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -784, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass415" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass416" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -912, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass417" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -960, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass418" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -832, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass419" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass406" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -416, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass407" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass408" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -432, 464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass409" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, 416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass410" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -544, 464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass411" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, 416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass412" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -528, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass168" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, 640 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass169" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, 624 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass170" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, 624 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass171" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass172" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass173" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -768, 544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass174" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, 640 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass175" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -848, 608 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass176" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -880, 608 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass177" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -768, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass178" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass179" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass180" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -752, 608 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass181" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -816, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass182" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass183" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass184" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass185" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass186" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass187" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass188" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass189" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass190" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass191" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass192" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass193" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, 464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass194" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass195" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass196" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass197" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass198" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass199" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass200" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass201" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass202" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass453" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass454" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass455" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 64, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass456" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 128, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass457" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, 320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass458" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass459" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 128, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass217" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass218" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass219" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass220" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass221" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 496, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass222" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass223" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass503" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass504" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass505" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass506" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass507" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass508" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass509" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass510" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass511" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass512" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass513" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass514" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass515" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass516" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass531" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 464, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass532" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass533" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass534" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass535" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass536" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass537" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass517" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass518" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass519" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass520" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass521" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass522" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass523" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass524" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass525" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass526" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass527" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass528" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass529" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass530" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass224" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass225" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass226" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass227" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass228" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass229" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass230" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass487" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass488" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass489" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass490" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass491" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass492" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass493" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass494" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass495" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass496" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass497" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass498" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass538" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass551" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass539" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass540" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass548" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 80, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass549" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 96, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass550" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 112, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass541" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass542" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass543" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass544" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass545" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass546" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass547" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass499" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass500" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass231" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 864, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass232" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 848, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass233" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 880, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass501" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 848, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass502" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 864, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass234" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass235" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass236" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass237" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 800, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass476" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass477" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 752, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass478" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass479" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass480" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 752, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass481" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass482" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass483" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass484" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass485" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass486" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass469" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass470" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass471" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass472" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass473" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass474" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass475" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass238" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 816, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass239" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, 272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass240" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass241" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 816, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass242" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 752, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass243" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 800, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass244" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, 256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass245" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass246" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass247" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, 16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass248" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass249" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass250" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass251" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass252" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass253" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass254" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass255" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass256" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass257" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass258" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass259" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass260" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass261" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass262" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass263" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass264" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass265" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass266" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass267" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass268" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass269" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass270" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass271" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass272" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass624" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 800, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass625" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 880, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass626" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 864, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass627" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass628" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass629" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass630" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 848, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass631" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass632" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass633" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass634" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass635" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass636" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass637" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass273" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass274" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass275" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, 32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass276" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass277" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 496, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass278" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 496, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass279" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass280" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass281" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass282" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass283" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass284" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass285" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass286" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 464, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass287" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass288" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass289" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass290" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass291" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass292" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass293" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass294" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass295" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass296" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 464, 64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass297" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass298" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass299" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass300" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass301" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass302" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass303" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass304" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass305" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass306" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass307" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass308" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass309" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass310" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass311" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass312" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, -272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass313" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass314" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass315" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass316" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass317" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass318" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass319" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass320" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass321" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass322" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass323" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass324" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass325" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass326" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass327" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass328" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass329" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass330" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass331" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass332" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass333" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 256, -336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass334" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass335" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass336" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -512, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass337" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass338" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -288, 576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass339" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass340" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass341" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass342" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass343" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -304, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass344" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 464, -544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass345" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -400, 480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass346" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass347" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass348" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass349" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass350" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -192, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass351" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass352" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -368, 512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass353" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass354" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass355" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass356" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass357" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -256, 576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass358" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass359" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -416, 496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass360" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass361" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass362" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass363" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass364" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass365" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass366" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -240, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass367" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass368" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -560, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass369" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass370" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass371" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, -48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass372" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -224, 576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass373" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -336, 544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass374" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass375" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass376" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass377" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass378" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass379" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 752, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass380" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -320, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass381" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass382" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass383" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 768, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass384" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass385" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass386" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass387" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -352, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass388" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass389" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass390" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 832, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass391" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass748" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -800, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass749" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -912, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass750" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -336, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass751" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass752" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -640, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass753" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass754" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass755" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -896, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass756" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -912, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass757" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass758" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass759" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass760" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass761" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -512, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass762" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -896, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass763" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -880, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass764" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass765" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass766" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -64 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass767" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass768" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -656, -32 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass769" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -960, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass770" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -864, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass771" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -672, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass772" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass773" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -592, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass774" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass775" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass776" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -960, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass777" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -880, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass778" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass779" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass780" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -624, -80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass781" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 272, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass782" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass783" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -960, 128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass784" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -496, -368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass785" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass786" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass787" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass788" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass789" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass790" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass791" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -480, -384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass792" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass793" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 48 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass794" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 320, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass795" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -752, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass796" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass797" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass798" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -528, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass799" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass800" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass801" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass802" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -736, -16 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass638" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 512, -272 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass639" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass640" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -608, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass641" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass642" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass643" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass644" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass645" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass646" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass647" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -576, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass648" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass649" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass650" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass651" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass652" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass653" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass654" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass655" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass656" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass657" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass658" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass659" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass660" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass661" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -688, 144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass662" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass663" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 560, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass664" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass665" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass666" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass667" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass668" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass669" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 288, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass670" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 544, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass671" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass672" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass673" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 528, -256 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass674" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -704, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass675" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass676" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass677" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass678" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass679" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass680" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass681" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -736, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass682" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, -512 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass683" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -432 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass684" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass685" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass686" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass687" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass688" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -736, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass689" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass690" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 576, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass691" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass692" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass693" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -112 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass694" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass695" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -752, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass696" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, -544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass697" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass698" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass699" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass700" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass701" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 784, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass702" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -928, 80 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass703" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass704" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass705" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass706" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass707" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass708" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 800, -576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass709" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass710" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -496 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass711" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass712" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass713" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass714" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 688, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass715" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 592, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass716" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, -464 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass717" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass718" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass719" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass720" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -96 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass721" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass722" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, -384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass723" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, -560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass724" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass725" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -144 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass726" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass727" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -128 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass728" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass729" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 496, -480 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass730" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, -176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass731" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass732" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass733" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass734" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass735" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass736" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass737" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 720, -208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass738" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 624, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass739" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, -400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass740" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -416 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass741" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 656, -160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass742" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 704, -368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass743" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 640, -320 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass744" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, -528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass745" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 608, -224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass746" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 672, -336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass747" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 736, -352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass203" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass204" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 432, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass205" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 464, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass206" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass207" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 448, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass208" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass209" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 480, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass460" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass461" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass462" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 416, 304 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass463" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 384, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass464" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass465" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 400, 288 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass466" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 352, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass467" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 336, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass468" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 368, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass210" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 144, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass211" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 336 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass212" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 224, 352 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass213" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 240, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass214" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 192, 368 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass215" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 304, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass216" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( 208, 384 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass70" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass71" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -176, 176 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass72" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass73" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -160, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass74" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -160, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass75" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass76" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -64, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass77" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, 160 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass78" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -112, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass79" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 224 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass80" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -240, 240 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass81" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -240, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass82" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, 208 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass83" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass54" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -80, 400 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass55" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -128, 448 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass27" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -272, 528 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass29" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -160, 576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass30" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -96, 576 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass31" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -192, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass32" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -176, 560 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass33" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -256, 544 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass34" type="StaticBody2D" parent="Grasses" instance=ExtResource( 1 )]
+position = Vector2( -144, 592 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Grasses2" type="YSort" parent="."]
+
+[node name="Grasses3" type="YSort" parent="."]
+
+[node name="Grasses4" type="YSort" parent="."]
+
+[node name="Grasses5" type="YSort" parent="."]
+
+[node name="Grasses6" type="YSort" parent="."]
+
+[node name="Grasses7" type="YSort" parent="."]
+
+[node name="Grasses8" type="YSort" parent="."]

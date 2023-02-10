@@ -1,0 +1,58 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://object/money.gd" type="Script" id=1]
+[ext_resource path="res://Shadows/SmallShadow.png" type="Texture" id=2]
+[ext_resource path="res://well_prepared sucai/UI/money.png" type="Texture" id=3]
+[ext_resource path="res://Enemies/PlayerDetectionArea.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Enemies/Softcollision.tscn" type="PackedScene" id=8]
+[ext_resource path="res://white_shadow.tres" type="Shader" id=10]
+
+[sub_resource type="CircleShape2D" id=13]
+radius = 7.0
+
+[sub_resource type="ShaderMaterial" id=12]
+resource_local_to_scene = true
+shader = ExtResource( 10 )
+shader_param/active = false
+
+[sub_resource type="CircleShape2D" id=9]
+radius = 58.1378
+
+[sub_resource type="CircleShape2D" id=11]
+radius = 4.0
+
+[node name="money" type="Area2D"]
+collision_layer = 0
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 4 )
+shape = SubResource( 13 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+material = SubResource( 12 )
+position = Vector2( -2.98023e-08, 3.39062 )
+scale = Vector2( 0.3125, 0.335938 )
+texture = ExtResource( 3 )
+offset = Vector2( 0, -6 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+offset = Vector2( 0, 6 )
+
+[node name="PlayerDetectionArea" parent="." instance=ExtResource( 6 )]
+visible = false
+
+[node name="CollisionShape2D" parent="PlayerDetectionArea" index="0"]
+modulate = Color( 1, 1, 1, 0.223529 )
+position = Vector2( 0, 6 )
+shape = SubResource( 9 )
+
+[node name="Softcollision" parent="." instance=ExtResource( 8 )]
+
+[node name="CollisionShape2D" parent="Softcollision" index="0"]
+position = Vector2( 0, 5 )
+shape = SubResource( 11 )
+
+[editable path="PlayerDetectionArea"]
+[editable path="Softcollision"]

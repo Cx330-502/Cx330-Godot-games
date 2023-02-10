@@ -1,0 +1,212 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://Enemies/Zombie.gd" type="Script" id=1]
+[ext_resource path="res://well_prepared sucai/mobs/mob_v1.png" type="Texture" id=2]
+[ext_resource path="res://hitboxes and hurtboxes/Hitbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://stats.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Enemies/WanderController.tscn" type="PackedScene" id=5]
+[ext_resource path="res://hitboxes and hurtboxes/Hurtboxes.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Enemies/PlayerDetectionArea.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Enemies/Softcollision.tscn" type="PackedScene" id=8]
+[ext_resource path="res://white_shadow.tres" type="Shader" id=9]
+
+[sub_resource type="ShaderMaterial" id=12]
+resource_local_to_scene = true
+shader = ExtResource( 9 )
+shader_param/active = false
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 2 )
+region = Rect2( 24, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 32, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 2 )
+region = Rect2( 24, 32, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 32, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 64, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 2 )
+region = Rect2( 24, 64, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 64, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 96, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 2 )
+region = Rect2( 24, 96, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 96, 24, 32 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
+"loop": true,
+"name": "move_down",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
+"loop": true,
+"name": "move_left",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ) ],
+"loop": true,
+"name": "move_right",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 25 ), SubResource( 26 ), SubResource( 27 ) ],
+"loop": true,
+"name": "move_up",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=7]
+radius = 7.0
+
+[sub_resource type="CapsuleShape2D" id=8]
+radius = 7.0
+height = 16.0
+
+[sub_resource type="CircleShape2D" id=9]
+radius = 115.017
+
+[sub_resource type="CircleShape2D" id=10]
+radius = 7.0
+
+[sub_resource type="CircleShape2D" id=11]
+radius = 7.0
+
+[sub_resource type="Animation" id=13]
+length = 0.001
+
+[sub_resource type="Animation" id=14]
+resource_name = "start"
+length = 0.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "stop"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[node name="Zombie" type="KinematicBody2D"]
+collision_layer = 16
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+max_speed = 65
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 12 )
+frames = SubResource( 6 )
+animation = "move_left"
+frame = 1
+playing = true
+offset = Vector2( 0, -6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 0, 6 )
+shape = SubResource( 7 )
+
+[node name="Hurtboxes" parent="." instance=ExtResource( 6 )]
+visible = false
+collision_layer = 8
+hit_effect = true
+
+[node name="CollisionShape2D" parent="Hurtboxes" index="0"]
+position = Vector2( 0, -4 )
+shape = SubResource( 8 )
+
+[node name="stats" parent="." instance=ExtResource( 4 )]
+max_health = 15
+drop_money = 15
+
+[node name="PlayerDetectionArea" parent="." instance=ExtResource( 7 )]
+
+[node name="CollisionShape2D" parent="PlayerDetectionArea" index="0"]
+modulate = Color( 1, 1, 1, 0.223529 )
+position = Vector2( 0, 6 )
+shape = SubResource( 9 )
+
+[node name="Hitbox" parent="." instance=ExtResource( 3 )]
+visible = false
+collision_mask = 4
+damage = 2
+
+[node name="CollisionShape2D" parent="Hitbox" index="0"]
+position = Vector2( -4, -2 )
+shape = SubResource( 10 )
+
+[node name="Softcollision" parent="." instance=ExtResource( 8 )]
+
+[node name="CollisionShape2D" parent="Softcollision" index="0"]
+position = Vector2( 0, 5 )
+shape = SubResource( 11 )
+
+[node name="WanderController" parent="." instance=ExtResource( 5 )]
+wander_range = 48
+
+[node name="BlinkAnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 13 )
+anims/start = SubResource( 14 )
+anims/stop = SubResource( 15 )
+
+[connection signal="area_entered" from="Hurtboxes" to="." method="_on_Hurtboxes_area_entered"]
+[connection signal="timeout" from="Hurtboxes/Timer" to="." method="_on_Timer_timeout"]
+[connection signal="no_health" from="stats" to="." method="_on_stats_no_health"]
+
+[editable path="Hurtboxes"]
+[editable path="PlayerDetectionArea"]
+[editable path="Hitbox"]
+[editable path="Softcollision"]

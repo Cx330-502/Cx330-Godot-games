@@ -1,0 +1,2519 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://World/bush.tscn" type="PackedScene" id=1]
+
+[node name="Bushes" type="YSort"]
+
+[node name="bushes" type="YSort" parent="."]
+
+[node name="bush" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush2" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush3" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -480, 480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush5" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush4" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush6" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1712, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush7" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1920, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush8" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1936, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush9" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1712, 112 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush10" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1696, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush11" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1808, 256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush12" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1808, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush13" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -1840, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush14" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -400, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush15" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -384, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush16" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -368, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush17" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -352, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush18" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -336, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush19" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -320, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush20" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -288, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush21" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -304, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush22" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -272, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush23" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -256, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush24" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -240, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush25" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -208, -288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush26" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -234, -260 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush27" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -720, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush28" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -64, 1.90735e-06 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush29" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 192, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush30" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -512, 368 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush31" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -592, 448 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush32" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -288, 400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush33" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 32, 352 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush34" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 144, 208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush35" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 64, -96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush36" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -80, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush37" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush38" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -288, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush39" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -912, -480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush40" type="StaticBody2D" parent="bushes" instance=ExtResource( 1 )]
+position = Vector2( -848, -576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bushes2" type="YSort" parent="."]
+position = Vector2( 16, 0 )
+
+[node name="bush" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 208, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush2" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush3" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -480, 480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush5" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush4" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush6" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1712, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush7" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1920, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush8" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1936, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush9" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1712, 112 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush10" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1696, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush11" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1808, 256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush12" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1808, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush13" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1840, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush14" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -400, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush15" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -384, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush16" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -368, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush17" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -352, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush18" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -336, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush19" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -320, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush20" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -288, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush21" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -304, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush22" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -272, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush23" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -256, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush24" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -240, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush25" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -208, -288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush26" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -234, -260 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush27" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush28" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -704, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush29" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -704, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush30" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush31" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -736, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush32" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -736, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush33" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush34" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -704, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush35" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -704, 608 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush37" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 640 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush38" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 640 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush39" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -720, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush40" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -752, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush41" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -848, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush43" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -912, 672 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush44" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -944, 704 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush45" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -976, 736 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush46" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -960, 784 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush47" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1024, 752 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush48" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -992, 800 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush49" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1072, 816 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush50" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -1008, 848 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush42" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -800, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush36" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -672, 592 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush51" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 32, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush52" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 176, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush53" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 224, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush54" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -64, 1.90735e-06 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush55" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 192, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush56" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -512, 368 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush57" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -592, 448 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush58" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -288, 400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush59" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 32, 352 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush60" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 144, 208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush61" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 64, -96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush62" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -80, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush63" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 240, 432 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush64" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 288, 448 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush65" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 544, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush66" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 592, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush67" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 736, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush68" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 768, 208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush69" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 576, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush70" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 608, 160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush71" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush72" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 576, -32 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush73" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 608, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush74" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 656, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush75" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 688, -96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush76" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 640, -112 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush77" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 672, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush78" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -288, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush79" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -912, -480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush80" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( -832, -544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush81" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 32, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush82" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 384, 48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush83" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 352, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush84" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 848, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush85" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 848, 224 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush86" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 864, 256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush87" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 864, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush88" type="StaticBody2D" parent="bushes2" instance=ExtResource( 1 )]
+position = Vector2( 864, 272 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bushes3" type="YSort" parent="."]
+position = Vector2( 16, 0 )
+
+[node name="bush" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -96, 16 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush2" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 208, 128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush3" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -480, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush5" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 304, 64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush4" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush6" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1712, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush7" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1920, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush8" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1936, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush9" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1712, 112 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush10" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1696, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush11" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1808, 256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush12" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1808, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush13" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1840, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush14" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -400, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush15" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -384, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush16" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -368, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush17" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -352, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush18" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -336, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush19" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -320, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush20" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -288, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush21" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -304, -256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush22" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -272, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush23" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -256, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush24" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -240, -240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush25" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -208, -288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush26" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -234, -260 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush27" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush28" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush29" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush30" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush31" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -736, 560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush32" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -736, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush33" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush34" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, 576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush35" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, 608 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush37" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 640 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush38" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 640 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush39" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush40" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -752, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush41" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -848, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush43" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -912, 672 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush44" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -944, 704 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush45" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -976, 736 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush46" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -960, 784 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush47" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1024, 752 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush48" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -992, 800 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush49" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1072, 816 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush50" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -1008, 848 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush42" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -800, 656 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush36" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -672, 592 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush51" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -96, 224 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush52" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 32, 496 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush55" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 160, 496 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush56" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -64, 496 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush57" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -128, 464 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush58" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -224, 384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush59" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -400, 384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush60" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -544, 32 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush61" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -608, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush62" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -544, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush63" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -544, 320 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush64" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush67" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -800, 240 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush68" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -736, 256 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush163" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -848, 80 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush164" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -784, 96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush69" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -800, 272 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush70" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -736, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush165" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -656, 48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush166" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -688, 3.05176e-05 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush167" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -688, 48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush71" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -816, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush72" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -800, 352 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush73" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -784, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush75" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -576, 176 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush76" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -560, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush77" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -544, 176 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush78" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -608, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush79" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -592, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush80" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -576, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush81" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -720, -384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush82" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -704, -368 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush83" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -688, -384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush84" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -608, -560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush85" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -592, -544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush86" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -576, -560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush90" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -640, -400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush91" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -624, -384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush92" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -608, -400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush87" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -608, -528 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush88" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -752, -448 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush89" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -672, -576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush93" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -624, -560 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush94" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -752, -448 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush95" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -640, -576 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush96" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 176, -96.0001 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush97" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 160, -1.52588e-05 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush98" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 240, -112 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush132" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 1.52588e-05, -176 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush133" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 64, -192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush99" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 320, -32 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush100" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 160, -1.52588e-05 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush101" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 272, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush143" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 608, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush144" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 560, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush119" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 384, -128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush120" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 336, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush121" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 368, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush123" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 288, -192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush124" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 256, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush130" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 272, -160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush131" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 128, -224 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush122" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 320, -160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush147" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 384, -128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush148" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 336, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush149" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 368, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush150" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 320, -160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush151" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 496, -496 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush152" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 448, -512 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush153" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 480, -512 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush154" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 432, -528 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush155" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 688, -400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush156" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 448, -480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush157" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 672, -432 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush158" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 704, -480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush74" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -736, 432 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush65" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -688, 432 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush66" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -512, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush111" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -224, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush125" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -160, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush126" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -160, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush112" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -224, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush113" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -192, 320 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush160" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -832, 128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush161" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -832, 144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush162" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -864, 160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush53" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -48, 288 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush54" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -304, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush102" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 208, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush103" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -208, 128 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush104" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 432, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush109" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 448, 304 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush110" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 368, 384 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush105" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 288, 368 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush106" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 464, 272 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush116" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 512, 48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush117" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 528, 16 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush118" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 544, -16 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush107" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 352, 272 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush108" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 368, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush114" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -64, 48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush115" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 160, -32 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush127" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 256, -240 )
+scale = Vector2( 0.64, 0.64 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush128" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 320, -288 )
+scale = Vector2( 0.64, 0.64 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush129" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 320, -272 )
+scale = Vector2( 0.64, 0.64 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush134" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 32, -80 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush135" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -80, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush136" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 272, 480 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush137" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 576, 336 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush138" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 688, 208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush139" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 528, 160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush141" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 352, 192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush170" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 384, 176 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush140" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 368, 144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush142" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 528, -64 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush145" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 608, -96 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush146" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( 592, -144 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush159" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -400, 544 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush168" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -624, -272 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush169" type="StaticBody2D" parent="bushes3" instance=ExtResource( 1 )]
+position = Vector2( -640, 592 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bushes4" type="YSort" parent="."]
+
+[node name="bush" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 704, -192 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush2" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 752, -160 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush3" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 752, -224 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush7" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 656, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush8" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 752, -80 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush9" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 656, -176 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush10" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 720, -368 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush11" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 768, -352 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush12" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 768, -400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush13" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 720, -320 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush14" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 736, -416 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush15" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 832, -400 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush4" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 144, -48 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush5" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 32, -208 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush6" type="StaticBody2D" parent="bushes4" instance=ExtResource( 1 )]
+position = Vector2( 144, -80 )
+scale = Vector2( 0.8, 0.8 )
+collision_mask = 0
+__meta__ = {
+"_edit_group_": true
+}

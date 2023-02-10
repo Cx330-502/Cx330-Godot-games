@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815894.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云岛南边的迷宫里还有一条暗道，能通往海外之地\n但那里十分危险，一定要小心"
+		},
+		{
+			"emit_signal": "占卜师_end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660999833.json",
+		"name": "占卜师_3"
+	}
+}

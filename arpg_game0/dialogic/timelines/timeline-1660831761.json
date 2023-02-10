@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815968.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "孩子们很喜欢在森林里踢球。如果你能踢赢他，说不定他会给你些有趣的小玩意儿。"
+		},
+		{
+			"emit_signal": "大叔",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831761.json",
+		"name": "大叔"
+	}
+}

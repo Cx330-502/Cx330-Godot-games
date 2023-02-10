@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "终于，赢了么"
+		},
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "鸡王，我必将再与你大战三百回合！！！"
+		},
+		{
+			"emit_signal": "over",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1661018592.json",
+		"name": "结束"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1660815785.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "切，没兴趣"
+		},
+		{
+			"character": "character-1660815952.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "害怕了就直说"
+		},
+		{
+			"emit_signal": "小孩_初遇_not_play",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1661011539.json",
+		"name": "小孩_初遇_not_play"
+	}
+}

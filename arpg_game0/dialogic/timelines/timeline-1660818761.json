@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815952.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "嘿！有兴趣来比一场吗？如果你赢了，或许我能送你点小礼物。"
+		},
+		{
+			"emit_signal": "小孩_初遇",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660818761.json",
+		"name": "小孩_初遇"
+	}
+}

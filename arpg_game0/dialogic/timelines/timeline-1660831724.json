@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815941.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "人啊，还是得多锻炼！"
+		},
+		{
+			"emit_signal": "运动的老人",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831724.json",
+		"name": "运动的老人"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660831980.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云岛北方有着上古遗留的机关，不知隐藏了什么奥秘。\n南方的海上迷宫中，时不时传来闪烁着宝物的光芒，听说还有一条密道能通往一个未知之地\n东方，嘶，那是魔王的所在，也是时空隧道的所在"
+		},
+		{
+			"emit_signal": "守卫",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831990.json",
+		"name": "守卫"
+	}
+}

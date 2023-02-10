@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "孩子，我们在岛上发现你的时候你已经昏迷了过去。医生治好了你"
+		},
+		{
+			"character": "character-1660815952.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "真是谢谢你们了"
+		},
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "但是我们找到你的时候，你身上的东西早已散落在地上\n我们找了很久，但或许还有一些遗落在你昏迷的地方\n对了，岛上有一股神秘的力量，会让怪物复活。一定要小心啊！"
+		},
+		{
+			"emit_signal": "村长_rebirth",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660913136.json",
+		"name": "村长_rebirth"
+	}
+}

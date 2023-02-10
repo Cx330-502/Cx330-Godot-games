@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815894.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云岛北边的远古机关能提供很多好东西"
+		},
+		{
+			"emit_signal": "占卜师_end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660999832.json",
+		"name": "占卜师_2"
+	}
+}

@@ -1,0 +1,508 @@
+[gd_scene load_steps=39 format=2]
+
+[ext_resource path="res://World/Trees.tscn" type="PackedScene" id=1]
+[ext_resource path="res://World/ball/football.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World/ball/football_gate.tscn" type="PackedScene" id=3]
+[ext_resource path="res://font1.tres" type="DynamicFont" id=4]
+[ext_resource path="res://World/ball/football_gate2.gd" type="Script" id=5]
+[ext_resource path="res://World/ball/Label.gd" type="Script" id=6]
+[ext_resource path="res://fonts/小箱子荣耀体.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://Shadows/MediumShadow.png" type="Texture" id=8]
+[ext_resource path="res://well_prepared sucai/NPC/boy.png" type="Texture" id=9]
+[ext_resource path="res://World/ball/NPC_boy.gd" type="Script" id=10]
+[ext_resource path="res://World/ball/football_field.gd" type="Script" id=11]
+[ext_resource path="res://well_prepared sucai/NPC/interact.png" type="Texture" id=12]
+[ext_resource path="res://World/ball/AcceptDialog.gd" type="Script" id=13]
+[ext_resource path="res://UI/theme.tres" type="Theme" id=14]
+
+[sub_resource type="PhysicsMaterial" id=2]
+friction = 0.6
+rough = true
+bounce = 0.65
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 257, 165.75 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 48
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 7 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 9 )
+region = Rect2( 32, 0, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 9 )
+region = Rect2( 64, 0, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 9 )
+region = Rect2( 96, 0, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 48, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 9 )
+region = Rect2( 32, 48, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 9 )
+region = Rect2( 64, 48, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 9 )
+region = Rect2( 96, 48, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 96, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 9 )
+region = Rect2( 32, 96, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 9 )
+region = Rect2( 64, 96, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 9 )
+region = Rect2( 96, 96, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 144, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 9 )
+region = Rect2( 32, 144, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 9 )
+region = Rect2( 64, 144, 32, 48 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 9 )
+region = Rect2( 96, 144, 32, 48 )
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"loop": true,
+"name": "run_down",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
+"loop": true,
+"name": "run_left",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
+"loop": true,
+"name": "run_right",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
+"loop": true,
+"name": "run_up",
+"speed": 10.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=23]
+radius = 5.0
+height = 0.0
+
+[sub_resource type="CircleShape2D" id=24]
+radius = 9.0
+
+[sub_resource type="CircleShape2D" id=26]
+radius = 19.0263
+
+[sub_resource type="PhysicsMaterial" id=25]
+friction = 0.7
+rough = true
+
+[node name="football_field" type="YSort"]
+script = ExtResource( 11 )
+
+[node name="square" type="YSort" parent="."]
+
+[node name="right" type="YSort" parent="square"]
+position = Vector2( -169, 0 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, -65 )
+
+[node name="Trees2" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, -40 )
+
+[node name="Trees3" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, -15 )
+
+[node name="Trees4" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 10 )
+
+[node name="Trees5" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 35 )
+
+[node name="Trees6" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 60 )
+
+[node name="Trees7" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 85 )
+
+[node name="Trees8" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 110 )
+
+[node name="Trees9" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 135 )
+
+[node name="Trees10" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 160 )
+
+[node name="Trees11" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 185 )
+
+[node name="Trees12" parent="square/right" instance=ExtResource( 1 )]
+position = Vector2( 131, 210 )
+
+[node name="down" type="YSort" parent="square"]
+position = Vector2( 57, 67 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 345, 143 )
+
+[node name="Trees2" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 320, 143 )
+
+[node name="Trees3" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 295, 143 )
+
+[node name="Trees4" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 270, 143 )
+
+[node name="Trees5" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 245, 143 )
+
+[node name="Trees6" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 220, 143 )
+
+[node name="Trees7" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 195, 143 )
+
+[node name="Trees8" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 170, 143 )
+
+[node name="Trees9" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 145, 143 )
+
+[node name="Trees10" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 120, 143 )
+
+[node name="Trees11" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 95, 143 )
+
+[node name="Trees12" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 70, 143 )
+
+[node name="Trees13" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 45, 143 )
+
+[node name="Trees14" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( 20, 143 )
+
+[node name="Trees15" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( -5, 143 )
+
+[node name="Trees16" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( -30, 143 )
+
+[node name="Trees17" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( -55, 143 )
+
+[node name="Trees18" parent="square/down" instance=ExtResource( 1 )]
+position = Vector2( -80, 143 )
+
+[node name="up" type="YSort" parent="square"]
+position = Vector2( 59, -209 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Trees" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 345, 143 )
+
+[node name="Trees2" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 320, 143 )
+
+[node name="Trees3" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 295, 143 )
+
+[node name="Trees4" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 270, 143 )
+
+[node name="Trees5" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 245, 143 )
+
+[node name="Trees6" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 220, 143 )
+
+[node name="Trees7" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 195, 143 )
+
+[node name="Trees8" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 170, 143 )
+
+[node name="Trees9" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 145, 143 )
+
+[node name="Trees10" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 120, 143 )
+
+[node name="Trees11" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 95, 143 )
+
+[node name="Trees12" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 70, 143 )
+
+[node name="Trees13" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 45, 143 )
+
+[node name="Trees14" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( 20, 143 )
+
+[node name="Trees15" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( -5, 143 )
+
+[node name="Trees16" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( -30, 143 )
+
+[node name="Trees17" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( -55, 143 )
+
+[node name="Trees18" parent="square/up" instance=ExtResource( 1 )]
+position = Vector2( -80, 143 )
+
+[node name="left" type="YSort" parent="square"]
+position = Vector2( 295, -1 )
+
+[node name="Trees" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, -65 )
+
+[node name="Trees2" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 60 )
+
+[node name="Trees3" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 85 )
+
+[node name="Trees4" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 110 )
+
+[node name="Trees9" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 135 )
+
+[node name="Trees10" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 160 )
+
+[node name="Trees11" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 185 )
+
+[node name="Trees12" parent="square/left" instance=ExtResource( 1 )]
+position = Vector2( 131, 210 )
+
+[node name="football" parent="." instance=ExtResource( 2 )]
+position = Vector2( 189, 74 )
+physics_material_override = SubResource( 2 )
+
+[node name="football_gate" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 74 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="football_gate2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 35, 74 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bush" parent="football_gate2/gate" index="0"]
+position = Vector2( -19, -26 )
+
+[node name="bush2" parent="football_gate2/gate" index="1"]
+position = Vector2( -4, -26 )
+
+[node name="bush3" parent="football_gate2/gate" index="2"]
+position = Vector2( 13, -26 )
+
+[node name="bush4" parent="football_gate2/gate" index="3"]
+position = Vector2( -19, 11 )
+
+[node name="bush5" parent="football_gate2/gate" index="4"]
+position = Vector2( -19, -1 )
+
+[node name="bush6" parent="football_gate2/gate" index="5"]
+position = Vector2( -18, -15 )
+
+[node name="bush7" parent="football_gate2/gate" index="6"]
+position = Vector2( 11, 28 )
+
+[node name="bush8" parent="football_gate2/gate" index="7"]
+position = Vector2( -3, 28 )
+
+[node name="bush9" parent="football_gate2/gate" index="8"]
+position = Vector2( -19, 28 )
+
+[node name="Area2D" parent="football_gate2" index="1"]
+position = Vector2( 3, 1 )
+
+[node name="center_position" type="Position2D" parent="."]
+position = Vector2( 190, 74 )
+
+[node name="football_area" type="Area2D" parent="."]
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="football_area"]
+visible = false
+position = Vector2( 192, 75.25 )
+shape = SubResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 168.0
+margin_top = -40.0
+margin_right = 238.0
+margin_bottom = 18.0
+custom_colors/font_color = Color( 1, 1, 1, 0.454902 )
+custom_fonts/font = ExtResource( 4 )
+text = " : "
+align = 1
+valign = 1
+script = ExtResource( 6 )
+
+[node name="Label1" type="Label" parent="Label"]
+margin_left = -34.0
+margin_right = 36.0
+margin_bottom = 58.0
+custom_colors/font_color = Color( 1, 0, 0, 0.454902 )
+custom_fonts/font = ExtResource( 4 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="Label"]
+margin_left = 36.0
+margin_top = -1.0
+margin_right = 106.0
+margin_bottom = 57.0
+custom_colors/font_color = Color( 0, 0, 1, 0.454902 )
+custom_fonts/font = ExtResource( 4 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="Label3" type="Label" parent="Label"]
+visible = false
+margin_left = -41.0
+margin_top = 82.0
+margin_right = 29.0
+margin_bottom = 140.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+align = 1
+valign = 1
+
+[node name="NPC_boy" type="KinematicBody2D" parent="."]
+pause_mode = 2
+collision_mask = 9
+script = ExtResource( 10 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC_boy"]
+scale = Vector2( 0.65, 0.65 )
+frames = SubResource( 22 )
+animation = "run_left"
+frame = 2
+
+[node name="Sprite" type="Sprite" parent="NPC_boy"]
+position = Vector2( 0, 11 )
+texture = ExtResource( 8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC_boy"]
+visible = false
+position = Vector2( 0, 11 )
+rotation = 1.5708
+shape = SubResource( 23 )
+
+[node name="hitball_area" type="Area2D" parent="NPC_boy"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC_boy/hitball_area"]
+position = Vector2( 0, 10 )
+shape = SubResource( 24 )
+
+[node name="detect_player_area" type="Area2D" parent="NPC_boy"]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC_boy/detect_player_area"]
+position = Vector2( 0, 9 )
+shape = SubResource( 26 )
+
+[node name="Sprite2" type="Sprite" parent="NPC_boy"]
+visible = false
+position = Vector2( -9.53674e-07, -16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 12 )
+
+[node name="Boy_position" type="Position2D" parent="."]
+position = Vector2( 381, -13 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+physics_material_override = SubResource( 25 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( -26, 81, -26, 204, 419, 208, 414, 39, 439, 39, 441, 233, -51, 235, -51, -68, 439, -68, 439, -42, -23, -42 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 30.0
+one_shot = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="AcceptDialog" type="AcceptDialog" parent="CanvasLayer"]
+margin_right = 96.0
+margin_bottom = 70.0
+theme = ExtResource( 14 )
+popup_exclusive = true
+window_title = ""
+dialog_text = "你的决定是……"
+script = ExtResource( 13 )
+
+[connection signal="right_gate_entered" from="football_gate" to="Label" method="_on_football_gate_right_gate_entered"]
+[connection signal="left_gate_entered" from="football_gate2" to="Label" method="_on_football_gate2_left_gate_entered"]
+[connection signal="body_exited" from="football_area" to="football" method="_on_football_area_body_exited"]
+[connection signal="Footballgame_over" from="Label" to="." method="_on_Label_Footballgame_over"]
+[connection signal="Footballgame_over" from="Label" to="NPC_boy" method="_on_Label_Footballgame_over"]
+[connection signal="first_dialogic_over" from="NPC_boy" to="CanvasLayer/AcceptDialog" method="_on_NPC_boy_first_dialogic_over"]
+[connection signal="over" from="NPC_boy" to="CanvasLayer/AcceptDialog" method="_on_NPC_boy_over"]
+[connection signal="body_entered" from="NPC_boy/hitball_area" to="NPC_boy" method="_on_hitball_area_body_entered"]
+[connection signal="body_entered" from="NPC_boy/detect_player_area" to="NPC_boy" method="_on_detect_player_area_body_entered"]
+[connection signal="body_exited" from="NPC_boy/detect_player_area" to="NPC_boy" method="_on_detect_player_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="confirmed" from="CanvasLayer/AcceptDialog" to="NPC_boy" method="_on_AcceptDialog_confirmed"]
+[connection signal="custom_action" from="CanvasLayer/AcceptDialog" to="NPC_boy" method="_on_AcceptDialog_custom_action"]
+
+[editable path="football_gate2"]

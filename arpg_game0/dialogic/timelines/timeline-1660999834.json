@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815894.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "海云岛东北边汇聚着大量怪物，但也有宝藏同存"
+		},
+		{
+			"emit_signal": "占卜师_end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660999834.json",
+		"name": "占卜师_4"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"character": "character-1660815820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "孩子，一路小心啊……"
+		},
+		{
+			"emit_signal": "村长",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831480.json",
+		"name": "村长"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1660815936.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "年轻人，我这里有些商品，或许能够帮到你。"
+		},
+		{
+			"emit_signal": "商人",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660831676.json",
+		"name": "商人"
+	}
+}

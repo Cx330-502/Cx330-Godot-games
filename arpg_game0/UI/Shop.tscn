@@ -1,0 +1,251 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://fonts/LXGWWenKaiGB-Bold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/theme.tres" type="Theme" id=2]
+[ext_resource path="res://fonts/font5.tres" type="DynamicFont" id=3]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/大血药.png" type="Texture" id=4]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/小血药.png" type="Texture" id=5]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/无敌药水.png" type="Texture" id=6]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/抗性宝珠.png" type="Texture" id=7]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/圣血药.png" type="Texture" id=8]
+[ext_resource path="res://well_prepared sucai/object/新建文件夹/轻灵液.png" type="Texture" id=9]
+[ext_resource path="res://well_prepared sucai/UI/money.png" type="Texture" id=10]
+[ext_resource path="res://UI/Shop.gd" type="Script" id=11]
+
+[sub_resource type="DynamicFont" id=1]
+resource_local_to_scene = true
+size = 7
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+resource_local_to_scene = true
+size = 12
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+resource_local_to_scene = true
+size = 12
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+resource_local_to_scene = true
+size = 9
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+resource_local_to_scene = true
+size = 9
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=6]
+resource_local_to_scene = true
+size = 9
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=7]
+resource_local_to_scene = true
+size = 9
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[node name="Shop" type="WindowDialog"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -76.0
+margin_top = -67.0
+margin_right = 75.0
+margin_bottom = 88.0
+theme = ExtResource( 2 )
+script = ExtResource( 11 )
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -74.5
+margin_top = -73.5
+margin_right = 75.5
+margin_bottom = 78.5
+columns = 3
+
+[node name="TextureRect" type="TextureRect" parent="GridContainer"]
+margin_right = 18.0
+margin_bottom = 21.0
+texture = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_right = 113.0
+margin_bottom = 21.0
+custom_fonts/font = SubResource( 1 )
+text = "可以回复三点体力的药水，居
+家旅行必备良药"
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_right = 141.0
+margin_bottom = 21.0
+rect_min_size = Vector2( 24, 5 )
+custom_fonts/font = SubResource( 2 )
+text = "25"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[node name="TextureRect2" type="TextureRect" parent="GridContainer"]
+margin_top = 25.0
+margin_right = 18.0
+margin_bottom = 46.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Label2" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_top = 25.0
+margin_right = 113.0
+margin_bottom = 46.0
+custom_fonts/font = ExtResource( 3 )
+text = "可以回复六点体力的药水，走
+向成功的不二之选"
+
+[node name="Button2" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_top = 25.0
+margin_right = 141.0
+margin_bottom = 46.0
+custom_fonts/font = SubResource( 3 )
+text = "60"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[node name="TextureRect3" type="TextureRect" parent="GridContainer"]
+margin_top = 50.0
+margin_right = 18.0
+margin_bottom = 71.0
+texture = ExtResource( 8 )
+expand = true
+
+[node name="Label3" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_top = 50.0
+margin_right = 113.0
+margin_bottom = 71.0
+custom_fonts/font = ExtResource( 3 )
+text = "可以增加一点体力上限，废柴
+翻身就靠它！"
+
+[node name="Button3" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_top = 50.0
+margin_right = 141.0
+margin_bottom = 71.0
+custom_fonts/font = SubResource( 4 )
+text = "200"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[node name="TextureRect4" type="TextureRect" parent="GridContainer"]
+margin_top = 75.0
+margin_right = 18.0
+margin_bottom = 96.0
+texture = ExtResource( 9 )
+expand = true
+
+[node name="Label4" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_top = 75.0
+margin_right = 113.0
+margin_bottom = 96.0
+custom_fonts/font = ExtResource( 3 )
+text = "可以在10秒内增加一点敏捷
+（重复使用无效）起飞！"
+
+[node name="Button4" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_top = 75.0
+margin_right = 141.0
+margin_bottom = 96.0
+custom_fonts/font = SubResource( 5 )
+text = "100"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[node name="TextureRect5" type="TextureRect" parent="GridContainer"]
+margin_top = 100.0
+margin_right = 18.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 0, 24 )
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Label5" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_top = 107.0
+margin_right = 113.0
+margin_bottom = 116.0
+custom_fonts/font = ExtResource( 3 )
+text = "五秒内无敌，你就是超人！！"
+
+[node name="Button5" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_top = 100.0
+margin_right = 141.0
+margin_bottom = 124.0
+custom_fonts/font = SubResource( 6 )
+text = "250"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[node name="TextureRect6" type="TextureRect" parent="GridContainer"]
+margin_top = 128.0
+margin_right = 18.0
+margin_bottom = 149.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="Label6" type="Label" parent="GridContainer"]
+margin_left = 22.0
+margin_top = 128.0
+margin_right = 113.0
+margin_bottom = 149.0
+custom_fonts/font = ExtResource( 3 )
+text = "永久增加一点抗性，即受到
+伤害减一"
+
+[node name="Button6" type="Button" parent="GridContainer"]
+margin_left = 117.0
+margin_top = 128.0
+margin_right = 141.0
+margin_bottom = 149.0
+custom_fonts/font = SubResource( 7 )
+text = "500"
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true
+
+[connection signal="pressed" from="GridContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="GridContainer/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="GridContainer/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="GridContainer/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="GridContainer/Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="GridContainer/Button6" to="." method="_on_Button6_pressed"]
